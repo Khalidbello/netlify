@@ -19,7 +19,7 @@ const dataStore = require("nedb");                                              
 const handlebars = require(                       "express-handlebars").create({
         extname: ".hbs"                     });
 
-const port = process.env.port || 2000
+const port = process.env.PORT || 2000
 
 const users = new dataStore({
     filename: "../../data/users",
