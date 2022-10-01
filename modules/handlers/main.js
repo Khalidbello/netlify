@@ -3,13 +3,8 @@
 
 //handling home
 exports.home = function(req, res) {
-  if(req.cookies.id) {
-    console.log(req.session.id);
-    return res.render("home", {
-      layout: null
-    });
-  };
-  res.redirect(302, "/login");
+  
+  res.send("yooooo am live");
 };//end of home handler
 
 
