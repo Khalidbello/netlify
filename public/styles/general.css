@@ -1,0 +1,80 @@
+/* general css file*/
+
+.flex {
+ display: flex;
+ justify-content: space-around;
+}
+
+.iflex {display: inline-flex;}
+
+.flex-c-al {align-items: center;}
+
+.flex-spar {
+  justify-content: space-around;
+}
+
+.flex-spbtw {
+  justify-content: space-between;
+}
+
+.flex-flow-c {flex-flow: column;}
+
+.flex-cent {align-items: center;}
+.flex-start {align-items: flex-start;}
+
+.flex-end {align-items: flex-end;}
+
+.float-r {float: right;}
+
+.float-l {float: left;}
+
+.bglp {background-color: #606bbb;}
+.bglp2 {background-color: #505aaa;}
+.bglp3 {background-color: #404999;}
+
+.bgdash {background-color: #111129;}
+
+.bgdash2 {background-color: #333349;}
+
+.bglash {background-color: #555569;}
+
+
+.bg-red {background-color: #dd0000;}
+
+.bg-green {background-color: #00dd00;}
+
+.clw {color: #ffffff;}
+
+.shdw {box-shadow: 0 0 6px -1px #111111;}
+
+.bdr {border-radius: 0.25em;}
+
+.bdr1 {border-radius: 1em;}
+
+.bdrex {border-radius: 5em;}
+
+.small {font-size: small;}
+
+.bold {font-weight: 800;}
+
+.margin-top {margin-top: 0.5em;}
+
+.margin-r {margin-right: 0.5em;}
+
+.margin-l {margin-left: 0.5em;}
+
+.margin {margin: 0.5em;}
+
+.padding {padding: 0.5em;}
+
+.text-cent{text-align: center;}
+
+.text-left {text-align: left;}
+
+.bcircle {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+}
+
+.border {border: thin solid #D0BDF0;}

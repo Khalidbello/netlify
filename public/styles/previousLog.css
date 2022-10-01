@@ -1,0 +1,110 @@
+* {
+  transition-property: all;
+  transition-duration: .2s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {border: none;}
+
+.clw {color: #ffffff; }
+.bdr  {border-radius: 0.25rem; }
+.boxsh {box-shadow: 0 0 5px  #111111; }
+.clr {color: red;}
+.bdr {border-radius: 1em;}
+.mg-tp-btm{
+  margin-top: 1em; 
+  margin-bottom: 1em;
+}
+
+
+.title {
+ font-size: 2em;
+ margin: 1em 0;	
+}
+
+#disp-login, #disp-create {
+  width: 40%;
+  font-weight: 300;
+}
+
+#disp-login {
+  font-weight: 800;
+}
+ 
+#container {
+  width: calc(100%-2em);
+  height: 36em;
+  margin: 3em auto 0;
+  padding: 1em 0.5em 0;
+  border-radius: 1em 1em 0 0;
+  text-align: center;
+  line-height: 2em;
+  position: relative;
+  z-index: 2;
+}
+
+#void {
+ position: relative;
+}
+
+#create-account, #login {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  overflow: auto;
+  background-color: transparent;
+}
+
+#create-account {
+  display: none;
+  line-height: 1.5em;
+  left: 100vw;
+}
+
+#login {
+  right: 0;
+}
+
+.input{
+  display: block;
+  width: 90%;
+  border: none;
+  height: 2em;
+  border-bottom: 0.15em solid #606bbb;
+  margin: 0.5rem auto;
+  text-align: center;
+  font-size: 1em;
+  background-color: transparent;
+}
+ 
+.bt {
+  width: 6em;
+  border-radius: 0.5em;
+  margin: 1em 0 0.25em;	
+  font-size: 1.5em;
+}
+
+.anony { 
+  width: auto;
+  height: 1em;
+  padding: 0.5em;
+}
+
+.dbtn {min-width: 5em;}
+
+#p-error {line-height: 0.5em;}
+
+canvas {
+ display: block;
+ position: fixed;
+ top: 3em ;
+ left: 0;
+ height: 36em;
+ border-radius: 1em 1em 0 0;
+ width: 100%;
+}

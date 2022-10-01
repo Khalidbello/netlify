@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+   <meta charset="utf-8">
+   <meta name="viewport" content=
+    "width=device-width, initial-scale=1.0">
+   <link href="styles/login.css" rel=
+    "stylesheet">
+   <title>k33d login page</title>
+ </head>
+
+ <body>
+    <script src="vendor/eruda.js"> </script>
+    <script>eruda.init();</script>
+
+    <script src="vendor/three.min.js">
+    </script>
+
+    <script src="scripts/login-anime.js">
+    </script>
+   
+    <div class="circle pbg top-circle">
+    </div>
+    <div class="circle pbg lower-circle">
+    </div>
+
+    <div class="clw top-text center-text">
+      Log In <br> <span class="large-text 
+      clp">To play</span>
+    </div>
+
+    <canvas id="parabola" width="900px"
+     height="300px">
+      <div class="circle game-pad pbg">
+      </div>
+    </canvas>
+
+    <img src="images/gamepad.png" class=
+     "game-pad">
+
+    <form action="login" method="post">
+
+      <div class="wbg input-holder">
+	<label for="email" class="small">
+	 Email</label>
+
+        <input type="email" placeholder=
+	 "email" name="email" class="fields"
+	 onfocus = "showLabel(this);"
+	 onfocusout = "removeBorder(this);"
+	 required>
+      </div>
+
+      <div class="wbg input-holder">
+	<label for="password" class="small">
+	password</label>
+
+        <input type="password" placeholder=
+        "password" name="password" 
+	minlength="6" class="fields" 
+	required	
+	onfocus = "showLabel(this);" 
+	onfocusout = "removeBorder(this);"
+	oninput= "showCancelButton(this)">
+
+	<svg class="cancel" onclick = "
+	 clearField(this, event);" xmlns=
+	 "http://www.w3.org/2000/svg" width=
+	 "24" height="24" viewBox=
+	 "0 0 24 24" fill="none" stroke=
+	 "#FFFFFF" stroke-width="2" 
+	 stroke-linecap="round" 
+	 stroke-linejoin="round">
+	 <line x1="18" y1="6" x2="6" y2=
+	 "18"></line>
+	 <line x1="6" y1="6" x2="18" y2=
+	  "18"></line></svg>
+      </div>
+
+      <div class="small" id="forgot-pass">
+        forgot password? <a class="clp"
+	href="#">click here</a>
+      </div>
+      
+      <input type="submit" class="pbg clw
+       opacity" value="Let's Play">
+      
+      <div class="center-text">
+         <a href="#" class="clp">
+	 log in anonymously</a>
+      </div>
+    </form>
+  
+    <div class="center-text small">
+      don't have an account <a href="#" 
+      class="clp">create one</a>
+    </div>
+
+  <script src="scripts/login.js"></script>
+ </body>
+
+</html>

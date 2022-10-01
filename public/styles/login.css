@@ -1,0 +1,119 @@
+/*log.css*/
+
+canvas {
+  display: block;
+  height: 10em;
+  width: 100%;
+  position: relative;
+}
+
+body{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.pbg {background-color: #9747FF}
+.wbg {background-color: #ffffff;}
+.clw {color: #ffffff;}
+.clp {color: #9747FF;}
+.center-text {text-align: center;}
+.small {font-size: small;}
+.opacity {opacity: 1;}
+.circle {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  opacity: 0.6;
+  position: absolute;
+}
+
+.large-text {font-size: 2.5em;}
+
+.top-circle {
+  top: -1.5em;
+  left: -1.5em;
+}
+
+.lower-circle {
+  top: 160px;
+  right: 0;
+}
+
+.top-text {
+  position: absolute;
+  top: 2em;
+  left: 0;
+  width: 100%;
+}
+
+.game-pad {
+  position: absolute;
+  top: 160px;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  box-shadow: 0 0 5px -2px #111;
+  left: calc(50% - 1.5em);
+}
+
+#parabola {
+  width: 100%;
+  height: 5em;
+  margin-top: -80px;
+  background-color: transparent;
+}
+
+form {margin-bottom: 2em;}
+
+form > * {
+  padding: 0.5em 1em;
+  display: block;
+  margin: 1em auto;
+  width: 90%;
+  border-radius: 0.5em;
+  border: none;
+}
+
+form > .input-holder {
+  position: relative;
+}
+
+form > input {
+  height: 3em;
+}
+
+form .fields {
+  width: 100%;
+  height: 2em;
+  padding: 0;
+  border: none;
+}
+
+form .fields:focus {outline: none;}
+
+form .fields:invalid {color: red;}
+
+label {
+  display: none;
+  color: #2791B5;
+}
+
+.cancel {
+  display: none;
+  position: absolute;
+  bottom: 0.25em;
+  right: 1em;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+#forgot-pass {margin-bottom: 2em;}
+
+a {text-decoration: none;}

@@ -1,0 +1,28 @@
+
+ <img src="images/dp.jpg" class="dp bgp       margin">
+
+ <div class="content flex flex-end            flex-spbtw">
+  <div class="post bgash bdr1 shdw">
+   <div class="caption">
+    write up
+   </div>
+   <div class="img-holder bdr1">
+    <img src="images/i1.jpg">
+   </div>
+  </div>
+
+  <div class="reaction">
+   <div class="bgp circle"></div>
+   <div class="bgp circle"></div>
+   <div class="bgp circle"></div>
+  </div>
+ </div>
+
+ <div class="flex flex-c-al flex-end
+  flex-spbtw comment">
+  <textarea placeholder=
+   "write a comment...." class="bgash
+    bdr1"></textarea>
+  <div class="bgp circle"></div>
+ </div>
+
